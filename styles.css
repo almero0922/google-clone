@@ -1,0 +1,56 @@
+:root{
+    --main-gray: #202124;
+    --main-text: white;
+    --footer-text: #9aa0a6;
+}
+body{
+    font-family: arial, sans-serif;
+    background-color: var(--main-gray);
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 3.4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: visible;
+}
+.header svg{
+    width: 1.6rem;
+    color: rgba(255,255,255,0.87);
+    fill: rgba(255,255,255,0.87);
+    margin-right: 1.4rem;
+}
+.header path{
+    color: rgba(255,255,255,0.87);
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+.img-a{
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.acc-btn{
+    font-family: "roboto";
+    margin-right: 3rem;
+    height: 2.4rem;
+    width: 6rem;
+    background-color: #93baf9;
+    text-decoration: none;
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,.15),0 1px 2px rgba(0,0,0,.3);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 17px
+}
