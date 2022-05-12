@@ -67,15 +67,22 @@ body{
 }
 .container-form{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 .container-search{
     display: flex;
     align-items: center;
-    width: 30rem;
-    height: 2.4rem;
+    width: 36rem;
+    height: 3rem;
     border: 1px solid #5f6368;
     border-radius: 30px;
+    overflow: hidden;
+}
+.container-search:hover{
+    background-color: #303134;
+    border: none;
 }
 .container-glass{
     width: 1.2rem;
@@ -88,4 +95,41 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.svg-glass{
+    fill: rgb(154, 160, 166);
+}
+.input-text{
+    width: 90%;
+    height: 90%;
+    color: white;
+    margin-left: 0.6rem;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    caret-color: white;
+}
+.button-container{
+    margin-top: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.6rem;
+    align-self: center;
+}
+.button-container button{
+    height: 80%;
+    width: 10rem;
+    background-color: #303134;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    border-radius: 3px;
+}
+.button-container button:hover{
+    border: 1px solid #5f6368;
+}
+.lucky{
+    margin-left: 1rem;
 }
